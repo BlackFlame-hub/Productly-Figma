@@ -1,0 +1,284 @@
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif, Arial;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+header img {
+  margin: 22px -100px 24px 130px;
+}
+header nav {
+  display: flex;
+  align-items: baseline;
+  padding: 15px 144px 17px 320px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-right: 25px;
+}
+header nav ul li {
+  list-style-type: none;
+  line-height: 28px;
+  font-size: 14px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  font-weight: 600;
+}
+header nav button {
+  margin-left: 22px;
+  width: 120px;
+  height: 46px;
+  border: 1px solid rgba(128, 128, 128, 0.466);
+  border-radius: 5px;
+  background-color: white;
+  padding: 11px 23px;
+  text-wrap: nowrap;
+}
+header nav button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+header nav button:hover {
+  background-color: rgb(189, 189, 189);
+  font-size: 1.1rem;
+}
+
+.signup {
+  background-color: #ff9900;
+  border: 0px;
+  border-radius: 5px;
+  text-wrap: nowrap;
+  padding: 11px 23px;
+  text-align: center;
+}
+.signup a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.signup:hover {
+  background-color: #a36e1d;
+  font-size: 1.05rem;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+.cc-w1120 {
+  display: flex;
+  width: 1120px;
+}
+
+.hero {
+  display: flex;
+  margin-top: 30px;
+}
+.hero article {
+  margin: 50px 0px;
+}
+.hero article h1 {
+  font-size: 44px;
+  line-height: 54px;
+}
+.hero article p {
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 28px;
+}
+.hero article section {
+  margin-top: 45px;
+}
+.hero article section button:nth-child(odd) {
+  width: 175px;
+  height: 53px;
+  margin-right: 30px;
+}
+.hero article section button:nth-child(even) {
+  border: none;
+  background-color: transparent;
+}
+.hero article section button:nth-child(even) a {
+  color: #ff9900;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hero article section button:nth-child(even) a img {
+  margin-top: -3px;
+}
+.hero article section button:nth-child(even) a:hover img {
+  transform: rotate(360deg);
+  transition: transform 0.4s ease;
+}
+
+.design-tools {
+  width: 1120px;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 120px;
+}
+.design-tools h2 {
+  font-size: 40px;
+  margin: 0px 278px 54px;
+}
+.design-tools button {
+  width: 173px;
+  height: 53px;
+}
+.design-tools .instruments {
+  display: flex;
+  text-align: left;
+  margin-bottom: 34px;
+  margin-top: 54px;
+}
+.design-tools .instruments .dtools {
+  margin-right: 45px;
+}
+.design-tools .instruments h3 {
+  font-size: 22px;
+}
+.design-tools .instruments p {
+  font-size: 16px;
+}
+
+.des-pro {
+  margin-bottom: 100px;
+}
+.des-pro article {
+  margin-right: 104px;
+  padding-top: 30px;
+  line-height: 26px;
+}
+.des-pro article h1 {
+  font-size: 36px;
+  margin-bottom: 22px;
+}
+.des-pro article p:nth-last-child(-n + 7) {
+  margin-bottom: 25px;
+}
+
+.prod-mang {
+  margin-bottom: 100px;
+}
+.prod-mang aside {
+  margin-right: 100px;
+}
+.prod-mang article {
+  padding-top: 40px;
+  width: 486px;
+  height: 427px;
+  line-height: 26px;
+}
+.prod-mang article h1 {
+  margin-bottom: 22px;
+}
+.prod-mang article p:not(:first-of-type) {
+  margin-bottom: 50px;
+}
+.prod-mang article li {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  position: relative;
+  list-style-type: none;
+}
+.prod-mang article li:before {
+  content: "";
+  position: absolute;
+  left: -3em;
+  height: 35px;
+  width: 35px;
+  background-image: url(../assets/bulletcheckbox.svg);
+  background-size: contain;
+}
+
+.marketer {
+  margin-bottom: 145px;
+}
+.marketer article {
+  margin-right: 90px;
+  padding-top: 40px;
+  line-height: 26px;
+}
+.marketer article h1 {
+  margin-bottom: 25px;
+}
+.marketer article p:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+.marketer article p {
+  margin-bottom: 25px;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  margin-bottom: 80px;
+}
+footer section {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 100px;
+}
+footer section h3 {
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+footer section a img {
+  margin-right: 125px;
+}
+footer section .links {
+  margin-right: 80px;
+  width: 300px;
+}
+footer section .links li {
+  list-style-type: none;
+  margin-left: -40px;
+  line-height: 35px;
+}
+footer section .links li a {
+  text-decoration: none;
+}
+footer aside h2 {
+  margin-top: 0;
+  margin-bottom: 34px;
+  line-height: 30px;
+  font-size: 20px;
+}
+footer aside form input {
+  width: 325px;
+  height: 48px;
+  padding: 0px 10px;
+  margin-bottom: 21px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+footer aside form input:focus {
+  outline: none;
+  border: 1px solid #ff9900;
+}
+footer aside form input::-moz-placeholder {
+  color: #bcd0e5;
+}
+footer aside form input::placeholder {
+  color: #bcd0e5;
+}
+footer aside form button {
+  width: 160px;
+  height: 40px;
+}
