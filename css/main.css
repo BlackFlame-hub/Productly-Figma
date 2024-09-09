@@ -132,27 +132,32 @@ main {
   margin-top: 110px;
   margin-bottom: 120px;
 }
-.design-tools h2 {
+.design-tools .design-tools__header {
   font-size: 40px;
   margin: 0px 278px 54px;
 }
-.design-tools button {
+.design-tools .design-tools__button {
   width: 173px;
   height: 53px;
 }
-.design-tools .instruments {
+.design-tools .design-tools__instruments {
   display: flex;
   text-align: left;
   margin-bottom: 34px;
   margin-top: 54px;
 }
-.design-tools .instruments .dtools {
+.design-tools .design-tools__instruments .design-tools__dtools {
   margin-right: 45px;
 }
-.design-tools .instruments h3 {
+.design-tools .design-tools__instruments .design-tools__dtools .design-tools__icon {
+  margin-left: 20px;
+  margin-bottom: 40px;
+  transform: scale(3);
+}
+.design-tools .design-tools__instruments .design-tools__header-title {
   font-size: 22px;
 }
-.design-tools .instruments p {
+.design-tools .design-tools__instruments .design-tools__pgraph {
   font-size: 16px;
 }
 
@@ -168,7 +173,7 @@ main {
   font-size: 36px;
   margin-bottom: 22px;
 }
-.des-pro article p:nth-last-child(-n + 7) {
+.des-pro article p:nth-last-child(-n+7) {
   margin-bottom: 25px;
 }
 
@@ -278,7 +283,13 @@ footer aside form input::-moz-placeholder {
 footer aside form input::placeholder {
   color: #bcd0e5;
 }
+footer aside form input::-moz-placeholder:focus {
+  color: red;
+}
+footer aside form input::placeholder:focus {
+  color: red;
+}
 footer aside form button {
   width: 160px;
   height: 40px;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

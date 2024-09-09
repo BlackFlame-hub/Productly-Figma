@@ -154,31 +154,37 @@ main {
   margin-top: 110px;
   margin-bottom: 120px;
 
-  h2 {
+  .design-tools__header {
     font-size: 40px;
     margin: 0px 278px 54px;
   }
 
-  button {
+  .design-tools__button {
     width: 173px;
     height: 53px;
   }
 
-  .instruments {
+  .design-tools__instruments {
     display: flex;
     text-align: left;
     margin-bottom: 34px;
     margin-top: 54px;
 
-    .dtools {
+    .design-tools__dtools {
       margin-right: 45px;
+
+      .design-tools__icon {
+        margin-left: 20px;
+        margin-bottom: 40px;
+        transform: scale(3);
+      }
     }
 
-    h3 {
+    .design-tools__header-title {
       font-size: 22px;
     }
 
-    p {
+    .design-tools__pgraph {
       font-size: 16px;
     }
   }
