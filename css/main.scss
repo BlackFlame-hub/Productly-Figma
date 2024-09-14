@@ -1,10 +1,53 @@
 $primaryColor: #ff9900;
 $hovercolor: #a36e1d;
 
-body {
-  background-color: #ffffff;
-  font-family: "Poppins", sans-serif, Arial;
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Fonts/Poppins/Poppins-Regular.ttf);
+  font-style: normal;
+  font-weight: 700;
 }
+
+@font-face {
+  font-family: "FatLeaningPoppins";
+  src: url(../assets/Fonts/Poppins/Poppins-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SlimShadyPoppins";
+  src: url(../assets/Fonts/Poppins/Poppins-ExtraLight.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Allerta";
+  src: url(../assets/Fonts/Allerta/Allerta-Regular.ttf);
+}
+
+.font-fat {
+  font-family: "FatLeaningPoppins", sans-serif;
+  text-shadow: 0 0 45px rgba($color: #201e85, $alpha: 1);
+}
+
+.font-eminem p {
+  font-family: "SlimShadyPoppins", sans-serif;
+}
+
+.font-regular {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-talent {
+  font: normal small-caps 500 25px/2 "Allerta", sans-serif;
+  text-decoration: underline;
+}
+
+// body {
+//   background-color: #ffffff;
+//   font-family: "Poppins", "Arial", sans-serif;
+// }
 
 header {
   display: flex;
